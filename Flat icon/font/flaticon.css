@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?acb3aabba3f9f3787637b4188e581ee8") format("truetype"),
+url("./flaticon.woff?acb3aabba3f9f3787637b4188e581ee8") format("woff"),
+url("./flaticon.woff2?acb3aabba3f9f3787637b4188e581ee8") format("woff2"),
+url("./flaticon.eot?acb3aabba3f9f3787637b4188e581ee8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?acb3aabba3f9f3787637b4188e581ee8#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-microscope:before {
+    content: "\f101";
+}
+.flaticon-lab-tool:before {
+    content: "\f102";
+}
+.flaticon-sugar-blood-level:before {
+    content: "\f103";
+}
+.flaticon-laboratory:before {
+    content: "\f104";
+}
+.flaticon-lung:before {
+    content: "\f105";
+}
+.flaticon-loupe:before {
+    content: "\f106";
+}
+.flaticon-down-arrow:before {
+    content: "\f107";
+}
+.flaticon-comment:before {
+    content: "\f108";
+}
+.flaticon-plus:before {
+    content: "\f109";
+}
+.flaticon-add:before {
+    content: "\f10a";
+}
+.flaticon-plus-1:before {
+    content: "\f10b";
+}
+.flaticon-down-arrow-1:before {
+    content: "\f10c";
+}
+.flaticon-checked:before {
+    content: "\f10d";
+}
+.flaticon-user:before {
+    content: "\f10e";
+}
+.flaticon-instagram:before {
+    content: "\f10f";
+}
+.flaticon-pinterest:before {
+    content: "\f110";
+}
+.flaticon-right-arrow:before {
+    content: "\f111";
+}
+.flaticon-clock:before {
+    content: "\f112";
+}
+.flaticon-envelope:before {
+    content: "\f113";
+}
+.flaticon-phone-ringing:before {
+    content: "\f114";
+}
+.flaticon-calendar:before {
+    content: "\f115";
+}
+.flaticon-menu:before {
+    content: "\f116";
+}
+.flaticon-left-arrow:before {
+    content: "\f117";
+}
+.flaticon-molecule:before {
+    content: "\f118";
+}
+.flaticon-flasks:before {
+    content: "\f119";
+}
+.flaticon-heart:before {
+    content: "\f11a";
+}
+.flaticon-facebook:before {
+    content: "\f11b";
+}
+.flaticon-facebook-app-symbol:before {
+    content: "\f11c";
+}
+.flaticon-twitter:before {
+    content: "\f11d";
+}
+.flaticon-twitter-1:before {
+    content: "\f11e";
+}
+.flaticon-linkedin:before {
+    content: "\f11f";
+}
+.flaticon-linkedin-1:before {
+    content: "\f120";
+}
+.flaticon-placeholder:before {
+    content: "\f121";
+}
+.flaticon-telephone:before {
+    content: "\f122";
+}
+.flaticon-double-right-arrows-angles:before {
+    content: "\f123";
+}
+.flaticon-up-arrow:before {
+    content: "\f124";
+}

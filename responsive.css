@@ -1,0 +1,1039 @@
+/*-----------------///////////// responsive////////////------------------ */
+
+
+@media (min-width:1367px) and (max-width:1500px) {
+    .banner-shep {
+        display: none;
+    }
+
+}
+
+@media(min-width:1121px) and (max-width:1365px) {
+    .banner-shep {
+        bottom: 14%;
+        display: block;
+    }
+
+}
+
+
+@media (max-width:1358px) {
+    
+}
+
+@media (max-width:1349px) {
+    .banner-shep {
+        bottom: 15%;
+        display: block;
+    }
+}
+
+@media (max-width:1320px) {
+    .banner-shep {
+        bottom: 16%;
+    }
+}
+
+@media (max-width:1200px) {}
+
+@media (max-width:1178px) {
+    .banner-shep {
+        display: none;
+    }
+
+}
+
+@media (max-width:1020px) {
+    .about-content h2 {
+        font-size: 27px;
+        margin-bottom: 8px;
+    }
+
+    .about-content .p1 {
+        font-size: 13px;
+        line-height: 1.3rem;
+    }
+
+    .about-content .p2 {
+        font-size: 13px;
+        line-height: 1.3rem;
+    }
+
+    .about-items ul li p {
+        font-size: 13px;
+    }
+
+    .about-items ul li {
+        margin: -12px 0px;
+    }
+
+    .focuse-content h2 {
+        font-size: 27px;
+        margin-bottom: 8px;
+    }
+
+    .focuse-content p {
+        font-size: 13px;
+    }
+
+    .focuse-list ul li .list-content h5 {
+        font-size: 20px;
+    }
+
+    .focuse-list ul li .list-content p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .focuse-list ul li .list-icon span {
+        top: -6px;
+        margin-right: 14px;
+        height: 25px;
+        width: 25px;
+        line-height: 27px;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width:1010px) {
+    .research-section {
+        bottom: 81px;
+
+    }
+
+}
+
+@media (max-width:996px) {
+    .research-section {
+        bottom: 0px;
+
+    }
+
+    .research-section {
+        bottom: -17px;
+        padding: 4rem 0rem;
+    }
+
+    .carousel .carousel-item .carousel-caption h2 {
+        font-size: 46px;
+        margin-top: 28px;
+    }
+
+}
+
+@media (max-width:990px) {
+    .head .top-left-content p span {
+        font-size: 13px;
+    }
+
+    .head .top-left-content p a {
+        font-size: 11px;
+    }
+
+    .top-right-content p span {
+        font-size: 13px;
+    }
+
+    .top-right-content p {
+        font-size: 11px;
+    }
+
+    .header-section .navbar ul li ul {
+        top: 0%;
+        left: 15%;
+    }
+
+    .header-section .navbar ul li:hover>ul {
+        top: 36%;
+    }
+
+    .header-section .navbar ul li a {
+        padding: 16px 0px;
+    }
+
+    .header-right .span1 {
+        margin-left: 13px;
+    }
+
+    .navbar-toggler {
+        border: 0px !important;
+    }
+
+    .contact-left-content h3 {
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+
+    .skills .progress-heading h4 {
+        display: inline-block;
+        font-size: 1.1rem;
+    }
+
+    .skills .progress-heading:nth-child(1) span {
+        left: 52%;
+    }
+
+    .skills .progress-heading:nth-child(3) span {
+        left: 30%;
+    }
+
+    .skills .progress-heading:nth-child(5) span {
+        left: 60%;
+    }
+
+}
+
+@media (max-width:898px) {
+    .carousel .carousel-item .carousel-caption h2 {
+        font-size: 40px;
+        margin-top: 69px;
+    }
+
+    .carousel .carousel-item .carousel-caption p {
+        font-size: 13px;
+    }
+
+    .carousel .carousel-item .carousel-caption .cur-btn a {
+        padding: 12px 25px;
+
+    }
+
+}
+
+@media (max-width:768px) {
+    .default-btn {
+        padding: 13px 30px;
+        font-size: 14px;
+    }
+
+    .skills .progress-heading:nth-child(1) span {
+        left: 43%;
+    }
+
+    .skills .progress-heading:nth-child(3) span {
+        left: 21%;
+    }
+
+    .skills .progress-heading:nth-child(5) span {
+        left: 51%;
+    }
+
+}
+
+@media (max-width:730px) {
+    .carousel .carousel-item .carousel-caption h2 {
+        font-size: 25px;
+        margin-top: 12px;
+        margin-bottom: 5px;
+    }
+
+    .carousel .carousel-item .carousel-caption p {
+        font-size: 11px;
+    }
+
+    .carousel .carousel-item .carousel-caption p {
+        font-size: 11px;
+        padding: 10px 0px !important;
+        margin-bottom: 5px;
+    }
+
+    .carousel .carousel-item .carousel-caption .cur-btn a {
+        font-size: 12px;
+        padding: 10px 14px !important;
+    }
+
+}
+
+@media (max-width:768px) {
+    .head .col-xl-6.col-lg-6.col-md-6.col-sm-12 {
+        text-align: center;
+        margin-bottom: .2rem;
+    }
+
+    .top-right-content p {
+        text-align: center;
+    }
+
+    .header-section .navbar ul li ul {
+        top: 0%;
+        left: 17%;
+    }
+
+    .box-down {
+        margin-top: 0px;
+    }
+
+    .blog-section .blog-text h3 {
+        font-size: 20px;
+    }
+
+    .blog-section .blog-text .blog-btn a {
+        font-size: 13px;
+    }
+
+    .blog-section .blog-text .blog-btn a span {
+        font-size: 7px;
+        position: relative;
+        top: -1px;
+        margin-left: 3px;
+    }
+
+    .blog-section .cards .blog-content .blog-img span {
+        font-size: 14px;
+        height: 10%;
+        width: 26%;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width:568px) {
+    .research-box {
+        padding: 20px 34px;
+        margin: 10px 13px;
+    }
+
+    .heading span {
+        color: #2554ff;
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .heading {
+        text-align: center;
+        margin-bottom: 2.3rem;
+    }
+
+    .heading h3 {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+
+    .service-box .service-box-content h4 {
+        font-size: 18px;
+    }
+
+    .service-box .service-box-content p {
+        font-size: 13px;
+        line-height: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .service-box .service-box-content a {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width:550px) {
+    .header-section .navbar ul li ul {
+        width: 170px;
+        left: 30%;
+    }
+
+    .header-section .navbar ul li ul li a span {
+        margin-left: 32px !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+
+    .header-section .navbar-brand img {
+        width: 82px;
+    }
+
+    .project-item .cards .cards-body .cards-img-content h5 {
+        font-size: 18px;
+    }
+
+    .project-item .cards .cards-body .cards-img-content span {
+        font-size: 13px;
+    }
+
+    .focuse-img {
+        padding-left: 0px;
+    }
+
+    .contact-left-content p {
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+
+    .skills .progress-heading h4 {
+        font-size: 1rem;
+    }
+
+    .clients-say .cards .cards-body .cards-img .img-content h4 {
+        font-size: 20px;
+    }
+
+    .clients-say .cards .cards-body .cards-img .img-content span {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:530px) {
+    .header-section .navbar ul li ul {
+        left: 21%;
+    }
+
+    .carousel .carousel-item .carousel-caption h2 {
+        font-size: 18px;
+        margin-top: 6px;
+    }
+
+    .carousel .carousel-item .carousel-caption p {
+        font-size: 9px;
+        padding: 8px 0px !important;
+    }
+
+    .carousel .carousel-item .carousel-caption .cur-btn a {
+        font-size: 8px;
+        padding: 6px 9px !important;
+    }
+
+    .banner-section .carousel button span {
+        height: 30px;
+        width: 30px;
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .contact-left-content h3 {
+        font-size: 1.688rem;
+        margin-bottom: 11px;
+    }
+
+    .contact-info .main-info span {
+        font-size: .8rem;
+    }
+
+    .contact-info .icon span {
+        margin-right: .7rem;
+    }
+
+    .contact-info .main-info span {
+        display: block !important;
+    }
+
+}
+
+
+
+@media (max-width:478px) {
+    .about-content span {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .about-content h2 {
+        font-size: 22px;
+        margin-bottom: 6px;
+    }
+
+    .about-content .p1 {
+        font-size: 11px;
+        line-height: 1.1rem;
+    }
+
+    .about-items ul li span {
+        font-size: 14px;
+        margin-right: 6px;
+    }
+
+    .default-btn {
+        padding: 11px 28px;
+        font-size: 12px;
+    }
+
+    .focuse-content span {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    .focuse-content h2 {
+        font-size: 24px;
+        margin-bottom: 7px;
+    }
+
+    .focuse-content p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .focuse-list ul li .list-content h5 {
+        font-size: 17px;
+    }
+
+    .focuse-list ul li .list-content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .contact-left-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .contact-left-content p {
+        font-size: .7rem;
+        line-height: 1.1rem;
+    }
+
+    .skills .progress-heading h4 {
+        font-size: .8rem;
+    }
+
+    .skills .progress-heading:nth-child(1) span {
+        font-size: .8rem;
+    }
+
+    .skills .progress-heading:nth-child(3) span {
+        font-size: .8rem;
+    }
+
+    .skills .progress-heading:nth-child(5) span {
+        font-size: .8rem;
+    }
+
+    .heading h4 {
+        font-size: 18px;
+    }
+
+    .contact-section .cards .cards-body form input::placeholder {
+
+        font-size: .8rem;
+    }
+
+    .form-select {
+        font-size: .8rem;
+
+    }
+
+    .contact-section .cards .cards-body form input~span {
+
+        font-size: .8rem !important;
+    }
+
+    .submit-btn button {
+        font-size: .8rem;
+    }
+
+    .blog-section .blog-text h3 {
+        font-size: 15px;
+    }
+
+    .blog-section .blog-text .blog-btn a {
+        font-size: 11px;
+    }
+
+    .footer-bottom p {
+        font-size: .8rem;
+    }
+
+    .footer-menu h4 {
+        font-size: 18px;
+    }
+
+    .footer-menu h4::after {
+        width: 9%;
+    }
+
+    .footer-menu ul li a {
+        font-size: 13px;
+    }
+
+    .contact-info h4 {
+        font-size: 18px;
+    }
+
+    .contact-info h4::after {
+        width: 9%;
+    }
+
+    .footer-social ul {
+        justify-content: center;
+    }
+
+    .footer-info p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:400px) {
+    .research-box .box-icon span {
+        height: 60px;
+        width: 60px;
+        line-height: 67px;
+        font-size: 25px;
+    }
+
+    .research-box .box-icon span::after {
+        top: 0px;
+        right: 6px;
+    }
+
+    .research-box .box-content h5 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .research-box .box-content p {
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .carousel .carousel-item .carousel-caption h2 {
+        font-size: 14px;
+        margin-top: 39px;
+    }
+
+    .carousel .carousel-item .carousel-caption p {
+        font-size: 6px;
+        padding: 3px 0px !important;
+    }
+
+    .carousel .carousel-item .carousel-caption .cur-btn a {
+        font-size: 6px;
+        padding: 6px 6px !important;
+    }
+
+    .progress {
+        margin-bottom: 1.1rem;
+        height: 8px !important;
+    }
+
+    .counter-content h4 {
+        font-size: 30px;
+    }
+
+    .counter-content p {
+        font-size: .9rem;
+    }
+
+    .counter-section .container {
+        padding: 1rem 0rem;
+    }
+
+    .clients-say .cards .cards-body .cards-img .img-content h4 {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+
+    .clients-say .cards .cards-body .cards-img .img-content span {
+        font-size: 12px;
+    }
+
+    .clients-say .cards .cards-body .cards-img .img-content p {
+        font-size: 13px;
+    }
+
+    .blog-section .cards .blog-content .blog-img span {
+        font-size: 11px;
+        height: 11%;
+    }
+
+}
+
+@media (max-width:378px) {
+    .heading h3 {
+        font-size: 23px;
+    }
+
+    .heading span {
+        font-size: 13px;
+    }
+
+    .service-box .service-box-content h4 {
+        font-size: 15px;
+    }
+
+    .service-box .service-box-content p {
+        font-size: 11px;
+        line-height: 1.1rem;
+        margin-bottom: 6px;
+    }
+
+    .service-box .service-box-content a {
+        font-size: 11px;
+    }
+
+    .service-box .service-box-content a span {
+        font-size: 7px;
+    }
+
+    .project-item .cards .cards-body .cards-img-content h5 {
+        font-size: 15px;
+    }
+
+    .project-item .cards .cards-body .cards-img-content span {
+        font-size: 12px;
+    }
+
+    .focuse-content h2 {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .focuse-content p {
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    .focuse-list ul li .list-content h5 {
+        font-size: 14px;
+    }
+
+    .focuse-list ul li .list-content p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .focuse-list ul li .list-icon span {
+        top: -5px;
+        margin-right: 9px;
+        height: 18px;
+        width: 18px;
+        line-height: 23px;
+        font-size: 18px;
+    }
+
+    .team-member .img-content h5 {
+        font-size: 17px;
+    }
+
+    .team-member .img-content span {
+        font-size: 11px;
+    }
+
+    .contact-section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .contact-left-content h3 {
+        font-size: 1rem;
+    }
+
+    .contact-left-content p {
+        font-size: .5rem;
+        line-height: .9rem;
+    }
+
+    .skills .progress-heading h4 {
+        font-size: .6rem;
+    }
+
+    .skills .progress-heading:nth-child(1) span {
+        font-size: .6rem;
+    }
+
+    .skills .progress-heading:nth-child(3) span {
+        font-size: .6rem;
+    }
+
+    .skills .progress-heading:nth-child(5) span {
+        font-size: .6rem;
+    }
+
+    .heading h4 {
+        font-size: 14px;
+    }
+
+    .blog-section .blog-text h3 {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    .blog-section .blog-text .blog-btn a {
+        font-size: 8px;
+    }
+
+    .blog-section .blog-text .blog-btn a span {
+        font-size: 5px;
+    }
+
+    .footer-bottom p {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width:340px) {
+    .head {
+        display: none;
+    }
+
+    .about-content h2 {
+        font-size: 16px;
+    }
+
+    .about-content span {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .about-content .p1 {
+        font-size: 9px;
+        line-height: 1rem;
+    }
+
+    .about-items ul li p {
+        font-size: 10px;
+    }
+
+    .about-items ul li span {
+        font-size: 12px;
+        margin-right: 4px;
+    }
+
+    .default-btn {
+        padding: 9px 15px;
+        font-size: 10px;
+    }
+
+    .counter-content h4 {
+        font-size: 20px;
+    }
+
+    .counter-content p {
+        font-size: .5rem;
+    }
+
+    .blog-section .cards .blog-content .blog-img span {
+        font-size: 10px;
+        height: 12%;
+    }
+
+
+
+
+
+}
+
+@media (max-width:320px) {
+    .research-box .box-icon span {
+        height: 50px;
+        width: 50px;
+        line-height: 56px;
+    }
+
+    .carousel .carousel-item .carousel-caption h2 {
+        font-size: 11px;
+        margin-top: 30px;
+    }
+
+    .carousel .carousel-item .carousel-caption p {
+        font-size: 6px;
+        padding: 0px 0px !important;
+        margin-bottom: 1px;
+    }
+
+    .contact-section .cards .cards-body form input::placeholder {
+        font-size: .6rem;
+    }
+
+    .form-select {
+        font-size: .6rem;
+    }
+
+    .contact-section .cards .cards-body form input {
+        font-size: 10px;
+    }
+
+    .submit-btn button {
+        font-size: .5rem;
+    }
+
+    .footer-bottom p {
+        font-size: .6rem;
+    }
+
+    .footer-info p {
+        font-size: 9px;
+        line-height: 18px;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+
+    .footer-social ul li a {
+        height: 30px;
+        width: 30px;
+        line-height: 34px;
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width:280px) {
+    .research-box .box-content h5 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .research-box .box-content p {
+        line-height: 14px;
+        font-size: 9px;
+    }
+
+    .about-content span {
+        font-size: 8px;
+        margin-bottom: 4px;
+    }
+
+    .about-content h2 {
+        font-size: 13px;
+    }
+
+    .about-content .p1 {
+        font-size: 8px;
+        line-height: .8rem;
+    }
+
+    .about-items ul li p {
+        font-size: 7px;
+    }
+
+    .about-items ul li span {
+        font-size: 9px;
+        margin-right: 1px;
+    }
+
+    .default-btn {
+        padding: 7px 10px;
+        font-size: 8px;
+    }
+
+    .service-box .service-icon span {
+        height: 50px;
+        width: 50px;
+        line-height: 57px;
+        font-size: 25px;
+    }
+
+    .service-box .service-box-content h4 {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .service-box .service-box-content p {
+        font-size: 7px;
+        line-height: .7rem;
+        margin-bottom: 3px;
+    }
+
+    .service-box .service-box-content a {
+        font-size: 8px;
+    }
+
+    .service-box .service-box-content a span {
+        font-size: 5px;
+    }
+
+    .heading h3 {
+        font-size: 18px;
+    }
+
+    .heading span {
+        font-size: 11px;
+        margin-bottom: 3px;
+    }
+
+    .heading {
+        margin-bottom: 1.5rem;
+    }
+
+    .project-item .cards .cards-body .cards-img-content h5 {
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+
+    .cards-img .cards-icon span {
+        height: 25px;
+        width: 37px;
+        font-size: 17px;
+        line-height: 30px;
+
+    }
+
+    .focuse-content span {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .focuse-content h2 {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+
+    .focuse-content p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .focuse-list ul li .list-content h5 {
+        font-size: 11px;
+    }
+
+    .focuse-list ul li .list-content p {
+        font-size: 8px;
+        line-height: 13px;
+    }
+
+    .team-member .img-content h5 {
+        font-size: 14px;
+    }
+
+    .team-member .img-content span {
+        font-size: 9px;
+    }
+
+    .skills .progress-heading:nth-child(1) span {
+        left: 31%;
+    }
+
+    .skills .progress-heading:nth-child(3) span {
+        left: 8%;
+    }
+
+    .skills .progress-heading:nth-child(5) span {
+        left: 37%;
+    }
+
+    .counter-content h4 {
+        font-size: 15px;
+    }
+
+    .counter-content p {
+        font-size: .4rem;
+    }
+
+    .blog-section .cards .blog-content .blog-img span {
+        font-size: 8px;
+        height: 14%;
+    }
+
+    .footer-bottom p {
+        font-size: .4rem;
+    }
+
+    .clients-say .cards .cards-body .cards-img .img-content p {
+        font-size: 11px;
+    }
+}

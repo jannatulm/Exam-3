@@ -1,0 +1,1624 @@
+/* Bismillahir Rahmanir Rahim */
+
+/* Default Css */
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+a,
+span {
+    display: inline-block !important;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cards {
+    border: 0px !important;
+}
+
+.cards-body {
+    padding: 0px;
+}
+
+
+/* Site Css Start Now */
+
+
+/* ==============================================
+            Top Header Css Start Here
+   ============================================== */
+
+.head {
+    background-color: #05152f;
+    padding: 10px;
+}
+
+
+.head .top-left-content p {
+    margin-right: 15px;
+    margin-bottom: 0px;
+
+}
+
+.head .top-left-content p a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.head .top-left-content p span {
+    margin-right: 5px;
+    color: #0884f3;
+    position: relative;
+    top: 3px;
+    font-size: 16px;
+}
+
+/* right side content */
+
+
+.top-right-content p {
+    margin-right: 15px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.top-right-content p span {
+    margin-right: 7px;
+    color: #0884f3;
+    position: relative;
+    top: 3px;
+    font-size: 16px;
+}
+
+/* ==============================================
+           Header menu Css Start Here
+   ============================================== */
+
+
+.header-section .navbar-brand img {
+    width: 100px;
+}
+
+
+/* Header menu css Start Here */
+
+.header-section .navbar ul {
+    list-style: none;
+}
+
+.header-section .navbar ul li {
+    margin: 0px 10px;
+    position: relative;
+}
+
+.header-section .navbar ul li a {
+    padding: 29px 0px;
+    color: #111 !important;
+    font-weight: 500;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.header-section .navbar ul li .active {
+    color: #2554ff !important;
+}
+
+.header-section .navbar ul li:hover>a {
+    color: #2554ff !important;
+
+}
+
+.header-section .navbar ul li a span {
+    position: relative;
+    top: 3px;
+    left: 2px;
+    font-size: 13px;
+}
+
+
+/* Drop down Menu Css Here */
+
+.header-section .navbar ul li ul {
+    position: absolute;
+    top: 125%;
+    left: 0%;
+    width: 200px;
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    padding-left: 0px;
+    box-shadow: 1px 1px 20px -6px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+
+}
+
+.header-section .navbar ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    top: 99.5%;
+
+}
+
+.header-section .navbar ul li ul li {
+    padding-left: 18px;
+    margin: 0px;
+
+
+}
+
+.header-section .navbar ul li ul li a {
+    display: block !important;
+    padding: 10px 0px;
+    color: rgb(0, 0, 0) !important;
+    transition: .4s;
+}
+
+.header-section .navbar ul li ul li a:hover {
+    letter-spacing: 1px;
+}
+
+.header-section .navbar ul li ul li:nth-child(1) .active:hover {
+    letter-spacing: 0px;
+}
+
+.header-section .navbar ul li ul li a span {
+    margin-left: 80px !important;
+}
+
+.header-section .navbar ul li ul li ul {
+    top: 0% !important;
+    left: -100%;
+
+}
+
+
+
+/* Header Right content Css Start Now */
+
+.header-right .span1 {
+    font-size: 28px;
+    margin-right: 15px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.header-right .span2 {
+    font-size: 21px;
+    transition: .5s;
+    position: relative;
+    top: -3px;
+}
+
+.header-right span:hover {
+    color: #0884f3;
+    cursor: pointer;
+}
+
+
+/* ==============================================
+           Banner Section Css Start Here
+   ============================================== */
+
+.banner-section {
+    position: relative;
+
+}
+
+
+
+.banner-section .carousel {
+    position: relative;
+
+
+}
+
+.banner-section .carousel::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+.banner-section .carousel button span {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50px;
+    color: #0884f3;
+    transition: .5s;
+}
+
+.banner-section .carousel button span:hover {
+    background-color: #111 !important;
+}
+
+.carousel .carousel-item .carousel-caption {
+    z-index: 1;
+}
+
+.carousel .carousel-item .carousel-caption h2 {
+    font-size: 60px;
+    margin-top: -90px;
+    margin-bottom: 20px;
+}
+
+.carousel .carousel-item .carousel-caption p {
+    padding: 20px 90px !important;
+
+}
+
+.carousel .carousel-item .carousel-caption .cur-btn a {
+    padding: 15px 35px;
+    background-color: #2554ff;
+    color: #fff;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+}
+
+.carousel .carousel-item .carousel-caption .cur-btn a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #111;
+    border-radius: 6px;
+    z-index: -1;
+    /* transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform .4s linear;
+    -moz-transition: transform .4s linear; */
+    transition: .5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.carousel .carousel-item .carousel-caption .cur-btn a:hover::after {
+    /* transform: scaleX(1);
+    -moz-transform: scaleX(1); */
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+
+/* ==============================================
+        Banner Shep Section Css Start Here
+   ============================================== */
+
+.banner-shep {
+    background-image: url("https://i.ibb.co/J5YYGL7/ia-100000016.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 18%;
+    width: 100%;
+    z-index: 6;
+    position: absolute;
+    bottom: -33%;
+    left: 0px;
+    pointer-events: none;
+}
+
+
+/* ==============================================
+        Banner Shep Section Css end Here
+   ============================================== */
+
+
+
+
+/* ==============================================
+            Research Section Css Start Here
+     ============================================== */
+
+.research-section {
+    position: relative;
+    bottom: 141px;
+    z-index: 11;
+    /* padding-bottom: 80px; */
+    width: 100%;
+    height: auto;
+}
+
+.research-box {
+    background-color: #f6f2fe;
+    text-align: center;
+    padding: 20px 15px;
+    transition: .5s;
+    box-shadow: 1px 1px 20px -5px rgba(0, 0, 0, 0.1);
+}
+
+.research-box:hover {
+    transform: translateY(-10px);
+    background-color: #fff;
+    box-shadow: 1px 1px 20px -6px rgba(0, 0, 0, 0.2);
+}
+
+.research-box .box-icon span {
+    color: #0fe7f9;
+    height: 75px;
+    width: 75px;
+    line-height: 82px;
+    font-size: 35px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px dashed #0fe7f9;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.research-box .box-icon span::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    height: 10px;
+    width: 10px;
+    background-color: #0fe7f9;
+    border-radius: 50px;
+}
+
+.research-box .box-content h5 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 6px;
+}
+
+.research-box .box-content p {
+    color: #908fa4;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+/* box down class for 2/4 no box for down position */
+
+.box-down {
+    margin-top: 35px;
+}
+
+
+
+/* ==============================================
+          About Section Css Start Here
+   ============================================== */
+
+.about {
+    padding: 90px 0px;
+    background-image: url("https://i.ibb.co/6HB5MP9/ia-100000019.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    background-color: #fafbfd;
+    position: relative;
+
+}
+
+
+/* Default Btn Css HEre */
+
+.default-btn {
+    padding: 15px 35px;
+    background-color: #2554ff;
+    color: #fff !important;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+}
+
+.default-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #111;
+    border-radius: 6px;
+    z-index: -1;
+    transition: .5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.default-btn:hover::after {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+
+}
+
+/* About Section About content Css Start Here */
+
+.about-content span {
+    color: #2554ff;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.about-content h2 {
+    font-size: 30px;
+    margin-bottom: 11px;
+    font-weight: 600;
+}
+
+.about-content .p1 {
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: #9191a4;
+    margin-bottom: 9px;
+}
+
+.about-content .p2 {
+    font-size: 15px;
+    line-height: 1.5rem;
+    color: #9191a4;
+    margin-bottom: 9px;
+}
+
+
+.about-items ul li {
+    margin: -4px 0px;
+}
+
+.about-items ul li span {
+    font-size: 16px;
+    margin-right: 8px;
+    color: #22456e;
+
+}
+
+.about-items ul li p {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top: -3px;
+    color: #22456e;
+}
+
+
+
+
+/* ==============================================
+          Service Section Css Start Here
+   ============================================== */
+
+
+.service-section-section {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    background-color: #efe9fb;
+    position: relative;
+}
+
+.service-section-section::before {
+    content: "";
+    position: absolute;
+    top: 278px;
+    left: 0px;
+    height: 59%;
+    background-image: url("https://i.ibb.co/VvTxM0Z/ia-100000020.png");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.service-section-section::after {
+    content: "";
+    position: absolute;
+    top: 278px;
+    left: 0px;
+    height: 59%;
+    background-image: url("https://i.ibb.co/MsJJ5fC/ia-100000021.png");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.heading span {
+    color: #2554ff;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.heading h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Service box Css Start Here */
+
+.service-box {
+    display: flex;
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    box-shadow: 1px 1px 20px -6px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+    position: relative;
+    z-index: 1;
+    transition: .4s;
+}
+
+/* Service box after  */
+.service-box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2554ff;
+    transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    transform-origin: left;
+    transition: .5s ease-in-out;
+    z-index: -1;
+
+
+}
+
+.service-box .service-icon {
+    flex-basis: 20%;
+    padding: 0px 15px;
+
+}
+
+.service-box .service-icon span {
+    height: 65px;
+    width: 65px;
+    line-height: 70px;
+    font-size: 30px;
+    background-color: #efe9fb;
+    color: #2554ff;
+    text-align: center;
+    border-radius: 50px;
+    transition: .5s;
+   
+}
+
+
+
+/* service box all hover effect right there  start */
+
+.service-box:hover .service-icon span {
+    transform: rotate(360deg);
+}
+
+.service-box:hover::after {
+    transform: scaleX(1);
+    -moz-transform: scaleX(1);
+
+}
+
+.service-box:hover {
+    border: 1px solid #2554ff;
+}
+
+.service-box:hover .service-box-content h4 {
+    color: #fff;
+}
+
+.service-box:hover .service-box-content p {
+    color: #fff !important;
+}
+
+.service-box:hover .service-box-content a {
+    color: #fff;
+}
+
+.service-box:hover .service-box-content a span {
+    color: #fff;
+}
+
+/* service box all hover effect right there  end */
+
+.service-box .service-box-content {
+    flex-basis: 80%;
+}
+
+
+.service-box .service-box-content h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+
+.service-box .service-box-content p {
+    font-size: 15px;
+    color: #80839f;
+    line-height: 1.5rem;
+}
+
+.service-box .service-box-content a {
+    color: #111;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .5s;
+
+}
+
+.service-box .service-box-content a span {
+    font-size: 9px;
+    margin-left: 2px;
+    transition: .5s;
+}
+
+
+
+/* ==============================================
+          Project Section Css Start Here
+   ============================================== */
+
+.project-item {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+/* Project box css start Here */
+
+.project-item .cards {
+    background-color: #f6f6f6;
+    border-radius: 0px !important;
+
+}
+
+.project-item .cards .cards-body .cards-img-content {
+    padding: 1.5rem 1rem;
+}
+
+.cards .cards-body .cards-img {
+    position: relative;
+}
+
+.cards-img .cards-icon span {
+    position: absolute;
+    bottom: -13px;
+    right: 9px;
+    height: 27px;
+    width: 39px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    background-color: #0fe7f9;
+    border-radius: 5px;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.cards-icon span:hover {
+    background-color: #fff;
+    color: #0fe7f9;
+}
+
+
+/* Project img content */
+
+.project-item .cards .cards-body .cards-img-content h5 {
+    font-size: 20px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.project-item .cards .cards-body .cards-img-content span {
+    font-size: 14px;
+    color: #365687;
+    transition: .5s;
+}
+
+.project-item .cards .cards-body .cards-img-content {
+    position: relative;
+    z-index: 1;
+}
+
+.project-item .cards .cards-body .cards-img-content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2554ff;
+    transition: .5s;
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    z-index: -1;
+
+}
+
+.project-item .cards:hover .cards-body .cards-img-content::after {
+    transform: scaleX(1);
+
+}
+
+.project-item .cards:hover .cards-body .cards-img-content h5 {
+    color: #fff;
+}
+
+.project-item .cards:hover .cards-body .cards-img-content span {
+    color: #fff;
+}
+
+/* ==============================================
+          Choose us Section Css Start Here
+   ============================================== */
+
+
+.focuse {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    background-image: url("https://i.ibb.co/MCmYy7c/ia-100000075.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.focuse-content span {
+    color: #2554ff;
+    font-size: 15px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.focuse-content h2 {
+    font-size: 30px;
+    margin-bottom: 11px;
+    font-weight: 600;
+}
+
+.focuse-content p {
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+
+}
+
+.focuse-list ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.focuse-list ul li {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.focuse-list ul li .list-icon {
+    flex-basis: 5%;
+}
+
+.focuse-list ul li .list-icon span {
+    font-size: 30px;
+    color: #0fe7f9;
+    position: relative;
+    top: -8px;
+    left: 1px;
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+    line-height: 38px;
+    transition: .5s;
+    border-radius: 50px;
+
+}
+
+.focuse-list ul li .list-content {
+    flex-basis: 95%;
+}
+
+.focuse-list ul li .list-content h5 {
+    font-size: 22px;
+}
+
+.focuse-list ul li .list-content p {
+    font-size: 14px;
+    color: #80839f;
+    font-weight: normal;
+}
+
+.focuse-list ul li:hover .list-icon span {
+    background-color: #0038e4;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.focuse-img {
+    padding-left: 35px;
+}
+
+
+/* ==============================================
+          Team Section Css Start Here
+   ============================================== */
+
+.team-section {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.team-member {
+    position: relative;
+}
+
+.team-member .member-img img {
+    border: 3px solid #0de8f8;
+    border-radius: 50%;
+
+}
+
+
+.team-member .social {
+    position: absolute;
+    bottom: 74px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.team-member .social ul li {
+    margin: 0px 3px;
+    transform: translateY(30px);
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.team-member:hover .social ul li {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/* transition dilay for icon hover effer in list style li */
+
+.team-member .social ul li:nth-child(1) {
+    transition-delay: .2s;
+}
+
+.team-member .social ul li:nth-child(2) {
+    transition-delay: .3s;
+}
+
+.team-member .social ul li:nth-child(3) {
+    transition-delay: .4s;
+}
+
+.team-member .social ul li:nth-child(4) {
+    transition-delay: .5s;
+}
+
+
+
+.team-member .social {
+    margin: 0px 5px;
+
+}
+
+.team-member .social ul li a span {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 36px;
+    background-color: aqua;
+    border-radius: 50px;
+    color: #fff;
+    transition: .5s;
+}
+
+.team-member .social ul li a span:hover {
+    background-color: #2554ff;
+    color: #fff;
+}
+
+/* team section content css */
+.team-member .img-content {
+    margin-top: 15px;
+}
+
+.team-member .img-content h5 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+.team-member .img-content span {
+    font-size: 13px;
+    color: #2554ff;
+}
+
+/* ==============================================
+          Contact Section Css Start Here
+   ============================================== */
+
+.contact-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url("https://i.ibb.co/SJxqsXp/ia-100000076.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.contact-left-content h3 {
+    font-size: 2.7rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-left-content p {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.8rem;
+    margin-bottom: 25px;
+}
+
+/* Progress Heading css */
+
+.skills .progress-heading {
+    color: #fff !important;
+
+}
+
+.skills .progress-heading h4 {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.125rem;
+}
+
+.skills .progress-heading:nth-child(1) span {
+    position: relative;
+    left: 44%;
+}
+
+.skills .progress-heading:nth-child(3) span {
+	position: relative;
+	left: 22%;
+}
+.skills .progress-heading:nth-child(5) span {
+	position: relative;
+	left: 52%;
+}
+
+/* Progress bar css  */
+
+.progress {
+    margin-bottom: 2rem;
+    height: 8px !important;
+
+}
+
+.progress .progress-bar{
+    border-radius: 5px;
+}
+
+
+/*  Contact Form css Start HEre */
+
+.contact-section .cards {
+    padding: 3rem 1.5rem;
+}
+
+
+.contact-section .cards .cards-body form input{
+    position: relative;
+    box-shadow: none !important;
+    border: none !important;
+    background-color: #f6f6f6;
+    padding: .8rem .8rem;
+    padding: 15px 20px;
+    border: 1px dashed #f6f6f6;
+    color: #5d5d5d;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    font-weight: 400;
+
+    
+}
+
+.contact-section .cards .cards-body form .submit-btn button{
+    padding: .9rem 2.5rem;
+        padding: 15px 35px;
+        background-color: #2554ff;
+        color: #fff !important;
+        border-radius: 6px;
+        position: relative;
+        z-index: 1;
+  
+
+}
+
+.contact-section .cards .cards-body form .submit-btn button::after{
+
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 0%;
+        background-color: #111;
+        border-radius: 6px;
+        z-index: -1;
+        transition: .5s ease-in-out;
+        visibility: hidden;
+        opacity: 0;
+
+
+}
+
+.contact-section .cards .cards-body form .submit-btn button:hover::after{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+
+.sk{
+    position: relative;
+}
+
+.contact-section .cards .cards-body form input ~ span {
+    -webkit-position:absolute;
+	position: absolute;
+	top: 28%;
+	right: 10%;
+    color: #0de8f8;
+    background-color: #f6f6f6;
+    height: 25px;
+    width: 25px;
+    pointer-events: none;
+}
+
+.contact-section .cards .cards-body form input::placeholder{
+    color: #6c757d;
+    opacity: 1;
+    font-size: 1rem;
+
+}
+
+.contact-section .cards .cards-body form select{
+    border: none !important;
+    background-color: #f6f6f6;
+    box-shadow: none !important;
+    color: #6c757d;
+    opacity: 1;
+    padding: .8rem .8rem;
+    position: relative;
+
+}
+
+
+
+
+.contact-section .cards .cards-body form input:focus{
+    border: none !important;
+}
+
+/* ==============================================
+          Counter Section Css Start Here
+   ============================================== */
+
+.counter-section {
+    padding: 6rem 0rem;
+}
+
+.counter-section .container {
+    background-color: #0de8f8;
+    padding: 3rem 0rem;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.counter-section .container::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 16px;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.ibb.co/gMdnFVG/ia-100000043.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    opacity: .7;
+}
+
+.counter-section .container::after {
+    content: "";
+    position: absolute;
+    bottom: -28px;
+    right: -71px;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.ibb.co/98bLstY/ia-100000044.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+
+/* Counter content css */
+
+.counter-content h4 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.counter-content p {
+    margin-bottom: 0px;
+    color: #031521;
+    font-weight: 600;
+}
+
+
+/* ==============================================
+          Testimonial Section Css Start Here
+     ============================================== */
+
+.testimonial-section {
+    padding-top: 6rem;
+    padding-bottom: 4.5rem;
+    background-image: url("https://i.ibb.co/7YxN6Lm/ia-100000077.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.testimonial-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: -1;
+}
+
+/* clients say box css */
+.clients-say .cards {
+    position: relative;
+    text-align: center;
+    padding-top: 4.5rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    background-color: #f6f5fd;
+    border-radius: 0px;
+}
+
+.clients-say .cards .cards-body .cards-img img {
+    position: absolute;
+    top: -115px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.clients-say .cards .cards-body .cards-img .img-content h4 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.clients-say .cards .cards-body .cards-img .img-content span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.clients-say .cards .cards-body .cards-img .img-content p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: oblique;
+    color: #76778e;
+
+}
+
+
+/* ==============================================
+       Testimonial Section Css Start Here
+   ============================================== */
+
+.blog-section {
+    padding-top: 6rem;
+    padding-bottom: 4.5rem;
+}
+
+.blog-section .cards {
+    position: relative;
+    box-shadow: 1px 1px 20px -5px rgba(0, 0, 0, 0.1);
+}
+
+
+.blog-section .cards .blog-content .blog-img span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #4154ff;
+    height: 12%;
+    width: 35%;
+    background-color: #fff;
+    text-align: center;
+    transition: .5s;
+}
+
+
+.blog-section .cards:hover .blog-content .blog-img span {
+    background-color: #4154ff;
+    color: #fff;
+}
+
+.blog-section .blog-text {
+    padding: 1rem .8rem;
+}
+
+.blog-section .blog-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.blog-section .blog-text .blog-btn a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #4154ff;
+}
+
+.blog-section .blog-text .blog-btn a span {
+
+    font-size: 9px;
+    position: relative;
+    top: -1px;
+    margin-left: 3px;
+
+}
+
+
+/* ==============================================
+       Partner logo Section Css Start Here
+   ============================================== */
+
+.partner-section {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    background-color: #fafaff;
+}
+
+/* ==============================================
+       Fotter Section Section Css Start Here
+   ============================================== */
+
+.fotter-section {
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+    background-image: url("https://i.ibb.co/MCmYy7c/ia-100000075.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer-info .logo img {
+    width: 120px;
+}
+
+.footer-info p {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #031521;
+    margin-bottom: 25px;
+}
+
+
+.footer-social ul li {
+    margin-right: 15px;
+}
+
+.footer-social ul li a {
+    height: 35px;
+    width: 35px;
+    line-height: 40px;
+    border: 1px solid transparent;
+    background-color: red;
+    text-align: center;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+/* use nth-child for specific icon hover and color */
+
+.footer-social ul li:nth-child(1) a {
+    background-color: #3b5998;
+    color: #fff;
+
+}
+
+.footer-social ul li:nth-child(2) a {
+    background-color: #1da1f2;
+    color: #fff;
+
+}
+
+.footer-social ul li:nth-child(3) a {
+    background-color: #c13584;
+    color: #fff;
+
+}
+
+.footer-social ul li:nth-child(4) a {
+    background-color: #007bb5;
+    color: #fff;
+
+}
+
+/* HOver Effect */
+
+.footer-social ul li:nth-child(1) a:hover {
+    color: #3b5998;
+    background-color: #fff;
+    border: 1px solid #3b5998;
+
+}
+
+.footer-social ul li:nth-child(2) a:hover {
+    color: #1da1f2;
+    background-color: #fff;
+    border: 1px solid #1da1f2;
+
+}
+
+.footer-social ul li:nth-child(3) a:hover {
+    color: #c13584;
+    background-color: #fff;
+    border: 1px solid #c13584;
+
+}
+
+.footer-social ul li:nth-child(4) a:hover {
+    color: #007bb5;
+    background-color: #fff;
+    border: 1px solid #007bb5;
+
+}
+
+/* Footer menu css Start Here */
+
+.footer-menu {}
+
+.footer-menu h4 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 40px;
+    position: relative;
+    color: #031521;
+}
+
+.footer-menu h4::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    height: 2px;
+    width: 18%;
+    background-color: #031521;
+}
+
+.footer-menu ul li {
+    margin: .6rem 0rem;
+
+}
+
+.footer-menu ul li span {
+    font-size: 11px;
+    margin-right: 8px;
+
+}
+
+.footer-menu ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #031521;
+    position: relative;
+    transition: .5s;
+}
+
+.footer-menu ul li a:hover {
+    color: #2554ff;
+}
+
+.footer-menu ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 1px;
+    width: 100%;
+    background-color: #2554ff;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: .5s;
+}
+
+.footer-menu ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+/* Fotter info div css Here */
+
+.contact-info h4 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 40px;
+    position: relative;
+    color: #031521;
+}
+
+.contact-info h4::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    height: 2px;
+    width: 18%;
+    background-color: #031521;
+}
+
+.contact-info .info-items {
+    margin: 1.4rem 0rem;
+}
+
+.contact-info .icon span {
+    margin-right: 1rem;
+}
+
+.contact-info .main-info span {
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.contact-info .main-info a {
+    font-size: .900rem;
+    color: #111;
+    font-weight: 400;
+    transition: .5s;
+    position: relative;
+}
+
+.contact-info .main-info a:hover {
+    color: #2554ff;
+}
+
+.contact-info .main-info a::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 1px;
+    width: 100%;
+    background-color: #2554ff;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: .5s;
+}
+
+.contact-info .main-info a:hover::after {
+    transform: scaleX(1);
+}
+
+
+/* Footer Bottom css Start Here */
+
+.footer-bottom {
+    background-color: #012b6b;
+}
+
+.footer-bottom p {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-bottom p a {
+    color: #fff;
+    transition: .5s;
+}
+
+.footer-bottom p a:hover {
+    color: #2554ff;
+}
+
+
+/* up bottom to up scroling btn  */
+
+
+
+
+
+
+
